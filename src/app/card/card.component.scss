@@ -1,0 +1,16 @@
+.card {
+  padding: 1em;
+  min-height: 2em;
+  background: burlywood;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: 2;
+  border-radius: 5px;
+
+  &__text {
+    background: whitesmoke;
+    padding: 0em 1em;
+    border-radius: 15px;
+  }
+}
